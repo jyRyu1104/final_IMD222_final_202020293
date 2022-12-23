@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+    <title>no.7</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    #sketch {
+      max-width: auto;
+      max-height: auto;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div id="p5Canvas"></div>
+    </div>
+    <p>카드 병사 탑을 무너뜨려 보세요.</p>
+    <div id="sketch"></div>
+    <script src="https://cdn.jsdelivr.net/npm/pathseg@1.2.1/pathseg.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/poly-decomp@0.2.1/build/decomp.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/matter-js@0.18.0/build/matter.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+    <script src="./Rect.js"></script>
+    <script src="./FromConcaveBody.js"></script>
+    <script src="./svg.js"></script>
+  </body>
+</html>
